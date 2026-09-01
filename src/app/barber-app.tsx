@@ -58,5 +58,5 @@ function RouteView() {
 }
 
 export function BarberApp() {
-  return <ErrorBoundary><BrowserRouter><Suspense fallback={<div className="app-loading"><span className="brand-loader">GC</span><p>Preparing your appointment desk…</p></div>}><RouteView /></Suspense></BrowserRouter></ErrorBoundary>;
+  return <ErrorBoundary><BrowserRouter basename="/online-barber"><Suspense fallback={<div className="app-loading"><span className="brand-loader">GC</span><p>Preparing your appointment desk…</p></div>}><RouteView /></Suspense></BrowserRouter></ErrorBoundary>;
 }
