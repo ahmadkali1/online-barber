@@ -2,7 +2,7 @@
 
 A production-ready barbershop booking experience for a premium Dubai grooming house. The application covers the complete customer journey: discovering services and barbers, booking a valid appointment, receiving confirmation, managing future visits, and reviewing completed services.
 
-## Live demo
+## Live demo  https://ahmadkali1.github.io/online-barber/
 
 The verified production URL is supplied with the project handoff. The same application can be run locally with the commands below.
 
